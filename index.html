@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <style>
+            body {
+                text-align: center;
+                margin-top: 100px;
+                font-family: Arial, sans-serif;
+            }
+            .search-box {
+                width: 400px;
+                padding: 10px;
+                border-radius: 20px;
+                border: 1px solid #ddd;
+                margin: 20px auto;
+                display: block;
+            }
+            .buttons {
+                margin-top: 20px;
+            }
+            button {
+                padding: 8px 16px;
+                margin: 0 5px;
+                background: #f2f2f2;
+                border: 1px solid #f2f2f2;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="font-size:80px;margin-bottom:30px;">
+            <span style="color:blue">G</span>
+            <span style="color:red">o</span>
+            <span style="color:yellow">o</span>
+            <span style="color:blue">g</span>
+            <span style="color:green">l</span>
+            <span style="color:red">e</span>
+        </h1>
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" class="search-box" autofocus>
+            <div class="buttons">
+                <button type="submit">Google Search</button>
+                <button type="submit" name="btnI">I'm feeling lucky</button>
+            </div>
+        </form>
+    </body>
+</html>
